@@ -17,8 +17,8 @@ title: c — i meccanismi del processo
 email: milena.zuccarelli@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Research and development blog for project c.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/zim" # the subpath of your site, e.g. /blog
+url: "https://piccolazucca.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  piccolazucca
 
