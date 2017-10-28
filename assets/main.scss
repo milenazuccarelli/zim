@@ -1,0 +1,183 @@
+---
+---
+$base-font-family: Helvetica, Arial, sans-serif;
+$spacing-unit: 60px;
+$brand-color: #111;
+@import "{{ site.theme }}";
+body { 
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  -webkit-font-smoothing: antialiased;
+}
+.wrapper {
+  max-width: calc(1600px - (60px * 2));
+}
+.site-header {
+  border-top: none;
+  border-bottom: 0px solid;
+  padding: $spacing-unit 0;
+  min-height: $spacing-unit;
+}
+.site-title {
+    font-size: 20px;
+    letter-spacing: 0;
+    font-weight: normal;
+    letter-spacing: 0.03em;
+}
+.post-meta {
+    font-size: 24px;
+    color: $grey-color-dark;
+}
+a.post-link , a.post-link:visited {
+    color: $grey-color-dark !important;
+}
+.post-list {
+    & h2 {
+        margin-left: 40px; }
+}
+.post-list {
+    & img {
+        max-height: 250px; }
+}
+.post-list {
+    & li {
+        margin-bottom: 140px;
+    }
+
+}
+.post-title-c {
+  text-align: center;
+  margin-left: -2.5em;
+  flex:1;
+  font-family: Times;
+  letter-spacing: 0;
+}
+.post-title-c .c {
+    width: 250px;
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        font-size: 18px;
+   color: #424242;
+
+}
+.post-title-c.a {
+  background-image: url(/assets/img/circle.svg);
+  background-repeat: no-repeat;
+  background-size: 250px auto;
+  background-position-y: 50%;
+}
+.post-title-c.b {
+  background-image: url(/assets/img/circle2.svg);
+  background-repeat: no-repeat;
+  background-size: 250px auto;
+  background-position-y: 50%;
+}
+
+  a.post-link {
+        font-size: 18px;
+            margin-right: 2.5em;
+  }
+.category-index {
+  ul.post-list, ul.post-list li:last-of-type, h2:last-of-type {
+    margin-bottom: 0;
+  }
+}
+h2.category-index {
+  text-align: center;
+  margin-top: $spacing-unit;
+}
+// ----- Carousel ----- //
+.gallery {
+  display: flex;
+  align-items: center;
+  width: 120%;
+  margin-left: -10%;
+  margin-bottom: $spacing-unit;
+  height: 100%;
+}
+.gallery-wrap {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.carousel {
+  display: flex;
+  left: -100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  transform: translateX(100%);
+}
+.carousel.is-reversing {
+  transform: translateX(-100%);
+}
+.carousel.is-set {
+  transform: none;
+  transition: transform 0.5s ease-in-out;
+}
+.carousel-seat {
+  background: #ddd;
+  flex: 1 0 100%;
+  order: 2;
+}
+.carousel-seat:nth-child(even) {
+  background: #d5d5d5;
+}
+@media (min-width: 30em) {
+  .carousel {
+    left: -50%;
+    transform: translateX(50%);
+  }
+    .carousel.is-reversing {
+    transform: translateX(-50%);
+  }
+  .carousel-seat {
+    flex-basis: 50%;
+  }
+}
+@media (min-width: 40em) {
+  .carousel {
+    left: -33.33333%;
+    transform: translateX(33.33333%);
+  }
+  .carousel.is-reversing {
+    transform: translateX(-33.33333%);
+  }
+  .carousel-seat {
+    flex-basis: 33.33333%;
+  }
+}
+.carousel-seat.is-ref {
+  order: 1;
+}
+.controls {
+  display:flex;
+  justify-content: space-between;
+  z-index: 9999;
+  position: absolute;
+}
+.gallery button {
+  font-family: "Source Code Pro", "Acne Studios Circle Test";
+  font-size: 32px;
+  width: 10%;
+  background:none;
+  border:none;
+    
+    &:focus {
+        outline: none;
+    }
+}
+// ----- Doodle Page ----- //
+#masonry {
+  width: 680px;
+}
+.masonry-item {
+  width: 30%;
+    img {
+      padding-bottom: 10px;
+    }
+}
+.gutter-sizer { width: 2%; }

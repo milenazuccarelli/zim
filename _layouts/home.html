@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<div class="home">
+  {{ content }}
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% unless post.categories contains "doodle"%}
+      <li style="display: flex">
+
+                <div  style="flex:1;">
+                  <div style="width: 300px; float: right;">
+                   <img style="" src="{{ post.thumbnail }}" />
+                  </div>
+                </div>
+
+                <div class="post-title-c {{ post.circle }}">
+                  <div class="c">
+        {% assign date_format = site.minima.date_format | default: "%d.%m.%y" %}
+<span>{{ post.date | date: date_format }}</span><br/>
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+        </div>
+</div>
+      </li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</div>
