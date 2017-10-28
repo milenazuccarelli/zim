@@ -3,11 +3,11 @@ layout: post
 title:  "Research and initial ideas"
 date:   2017-10-17 16:43:23 +0200
 categories: ideas
-thumbnail: "/assets/img/thumb.jpg"
+thumbnail: "/zim/assets/img/thumb.jpg"
 circle: b
 ---
 
-1. Research and initial ideas
+<h3>1. Research and initial ideas</h3>
 
 I’ve been looking at and reading a lot of performance art recently. It seems to be more dynamic and in a lot of cases directly involves the audience. I’m interested more in the interaction between the audience/participant/viewer than the work itself. 
 

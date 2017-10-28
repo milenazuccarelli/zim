@@ -1,6 +1,7 @@
 ---
 ---
 $base-font-family: Helvetica, Arial, sans-serif;
+$secondary-font: Times;
 $spacing-unit: 60px;
 $brand-color: #111;
 @import "{{ site.theme }}";
@@ -45,11 +46,18 @@ a.post-link , a.post-link:visited {
     }
 
 }
+.post-thumbnail {
+  flex:1;
+}
+.post-thumbnail-img {
+  width: 300px;
+  float: right;
+}
 .post-title-c {
   text-align: center;
   margin-left: -2.5em;
   flex:1;
-  font-family: Times;
+  font-family: $secondary-font;
   letter-spacing: 0;
 }
 .post-title-c .c {
@@ -58,126 +66,47 @@ a.post-link , a.post-link:visited {
     top: 50%; 
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-        font-size: 18px;
-   color: #424242;
+    font-size: 18px;
+    color: #424242;
 
 }
 .post-title-c.a {
-  background-image: url(/assets/img/circle.svg);
+  background-image: url(/zim/assets/img/circle.svg);
   background-repeat: no-repeat;
   background-size: 250px auto;
   background-position-y: 50%;
 }
 .post-title-c.b {
-  background-image: url(/assets/img/circle2.svg);
+  background-image: url(/zim/assets/img/circle2.svg);
   background-repeat: no-repeat;
   background-size: 250px auto;
   background-position-y: 50%;
 }
+a.post-link {
+      font-size: 18px;
+          margin-right: 2.5em;
+}
+article.post {
+  width: 700px;
+}
+.feed {
+  font-family: $secondary-font;
 
-  a.post-link {
-        font-size: 18px;
-            margin-right: 2.5em;
-  }
-.category-index {
-  ul.post-list, ul.post-list li:last-of-type, h2:last-of-type {
-    margin-bottom: 0;
-  }
+    display: inline-block;
+ -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+     -ms-transform: skewX(-30deg);
+      -o-transform: skewX(-30deg);
+         transform: skewX(-30deg);
 }
-h2.category-index {
-  text-align: center;
-  margin-top: $spacing-unit;
+.indent {
+    margin-left: 2em;
 }
-// ----- Carousel ----- //
-.gallery {
-  display: flex;
-  align-items: center;
-  width: 120%;
-  margin-left: -10%;
-  margin-bottom: $spacing-unit;
-  height: 100%;
+.post-content h3 {
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-family: $secondary-font;
 }
-.gallery-wrap {
-  width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
+.post-meta, .post-title {
+  display: none;
 }
-.carousel {
-  display: flex;
-  left: -100%;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  transform: translateX(100%);
-}
-.carousel.is-reversing {
-  transform: translateX(-100%);
-}
-.carousel.is-set {
-  transform: none;
-  transition: transform 0.5s ease-in-out;
-}
-.carousel-seat {
-  background: #ddd;
-  flex: 1 0 100%;
-  order: 2;
-}
-.carousel-seat:nth-child(even) {
-  background: #d5d5d5;
-}
-@media (min-width: 30em) {
-  .carousel {
-    left: -50%;
-    transform: translateX(50%);
-  }
-    .carousel.is-reversing {
-    transform: translateX(-50%);
-  }
-  .carousel-seat {
-    flex-basis: 50%;
-  }
-}
-@media (min-width: 40em) {
-  .carousel {
-    left: -33.33333%;
-    transform: translateX(33.33333%);
-  }
-  .carousel.is-reversing {
-    transform: translateX(-33.33333%);
-  }
-  .carousel-seat {
-    flex-basis: 33.33333%;
-  }
-}
-.carousel-seat.is-ref {
-  order: 1;
-}
-.controls {
-  display:flex;
-  justify-content: space-between;
-  z-index: 9999;
-  position: absolute;
-}
-.gallery button {
-  font-family: "Source Code Pro", "Acne Studios Circle Test";
-  font-size: 32px;
-  width: 10%;
-  background:none;
-  border:none;
-    
-    &:focus {
-        outline: none;
-    }
-}
-// ----- Doodle Page ----- //
-#masonry {
-  width: 680px;
-}
-.masonry-item {
-  width: 30%;
-    img {
-      padding-bottom: 10px;
-    }
-}
-.gutter-sizer { width: 2%; }
