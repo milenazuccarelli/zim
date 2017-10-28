@@ -12,18 +12,22 @@ circle: b
 I’ve been looking at and reading a lot of performance art recently. It seems to be more dynamic and in a lot of cases directly involves the audience. I’m interested more in the interaction between the audience/participant/viewer than the work itself. 
 
 Samuel told me that to have ideas you need to have an ID. I was thinking about what I like and what type of work I'm interested in. What I usually make is highly different to the type of work I'm generally attracted to. What I've been particularly interested in lately:
+<p class="indent">
 — performance art <br />
 — interaction between the audience/participant/viewer <br />
 — apolitical art <br />
 — playful art
+</p>
 
 Two artists i really love are Adrian Horni and Linus Bill, their work is super playful and colourful and simple. An exploration in form and colour.
 As I want to move away from screen-based work to experiment more during this term and make the most of it, moving from two dimensions to three dimensions I started thinking about playful sculpture:
+<p class="indent">
 — Suzy Lelièvre’s Nonsensical Objects <br />
-— Bruno Munari’s Useless Machines 
-— Philippe Starck’s Juicy Salif
-— Aurélien Arbet & Jérémie Egry’s sculptures make from combinations and sections of everyday objects
+— Bruno Munari’s Useless Machines <br />
+— Philippe Starck’s Juicy Salif<br />
+— Aurélien Arbet & Jérémie Egry’s sculptures make from combinations and sections of everyday objects<br />
 — Clemens Kois’ stacks
+</p>
 
 I was walking to school the other day and saw a pile of well placed junk and it made for a somewhat super cool serendipitous sculpture. The bicycle spokes in my mind turned it into some marvellous kinetic sculpture and I imagined the separate parts working together. I think using found objects and giving something unintentional an intention is an appealing process. Somehow I think I can work with these everyday objects and give them a new life.
 
@@ -34,9 +38,9 @@ In the words of Sol Lewitt which I’ve probably quotes more this past week than
 
 Right now the plan is to think about all of the paraphernalia needed for my machine!… I’m going to start collecting objects I see around me, and map out some blueprints of individual operations. As the technical aspect of it needs to work, I want to separate the whole machine into many different sections. If there’s a problem somewhere along the line I will be able to identify and fix it a lot sooner. I also need to think about potential outcomes of the machine, I think I will brainstorm as many as possible and narrow it down from there.
 
-Catch me outside how bout dat:
-[my GitHub repo][miles-gh]
-[my Twitter][miles-twitter]
+Catch me outside how bout dat:<br />
+<span class="feed">001</span> — [my GitHub repo][miles-gh]<br />
+<span class="feed">002</span> — [my Twitter][miles-twitter]
 
 
 [miles-gh]:   https://github.com/piccolazucca
