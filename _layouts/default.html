@@ -11,4 +11,15 @@
   </main>
 
 </body>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+    $(document).ready(function(){
+      $(".show__thumb a").mousemove(function(e){
+          $('.blog__thumb').offset({left: e.pageX, top: e.pageY - $('.blog__thumb img').height()/2 });
+      });
+      $(".show__image span").mousemove(function(e){
+          $('.blog__image').offset({left: e.pageX, top: e.pageY - $('.blog__image img').height()/2 });
+      });
+  });
+</script>
 </html>

@@ -110,3 +110,19 @@ article.post {
 .post-meta, .post-title {
   display: none;
 }
+
+.show__image {
+	position: relative;
+}
+
+.show__image .blog__image {
+  min-width: 250px;
+	max-width: 250px;
+	position: absolute;
+	z-index: -100;
+	display: none !important;
+}
+
+.show__image:hover .blog__image  {
+	display: block !important;
+}

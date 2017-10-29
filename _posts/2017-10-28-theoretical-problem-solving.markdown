@@ -9,34 +9,22 @@ circle: a
 
 <h3>Theoretical Problem Solving</h3>
 
-I’ve been looking at and reading a lot of performance art recently. It seems to be more dynamic and in a lot of cases directly involves the audience. I’m interested more in the interaction between the audience/participant/viewer than the work itself. 
+In these days I'm working on breaking down the process of what needs to be done. As each operation is going to be somewhat "independant" (I realise it sounds a bit counter-intuitive to use this term when referring to a Rube Golberg machine), I don't need to have the whole machine designed beforehand. It will be more of trial-and-error to see what works together and what doesn't. I'm calling this theoretical problem solving for now as it consists mostly of brainstorming possible cause and effect scenarios, working within my limited repetoire of physical computing knowledge:
 
-Samuel told me that to have ideas you need to have an ID. I was thinking about what I like and what type of work I'm interested in. What I usually make is highly different to the type of work I'm generally attracted to. What I've been particularly interested in lately:
 <p class="indent">
-— performance art <br />
-— interaction between the audience/participant/viewer <br />
-— apolitical art <br />
-— playful art
+— use an LED or emit light from a source &#10230; as a ball passes in front of the light, a light sensor detects this break <br />
+— use a flex sensor &#10230; induce a collision with the ball <br />
+— pour water into a container &#10230; use water sensor to detect the change in level
 </p>
 
-Two artists i really love are Adrian Horni and Linus Bill, their work is super playful and colourful and simple. An exploration in form and colour.
-As I want to move away from screen-based work to experiment more during this term and make the most of it, moving from two dimensions to three dimensions I started thinking about playful sculpture:
+And some other procedures I'd like to play around with, but of which the effect is still unknown to me:
+
 <p class="indent">
-— Suzy Lelièvre’s Nonsensical Objects <br />
-— Bruno Munari’s Useless Machines <br />
-— Philippe Starck’s Juicy Salif<br />
-— Aurélien Arbet & Jérémie Egry’s sculptures make from combinations and sections of everyday objects<br />
-— Clemens Kois’ stacks
+— use a motor to make something spin <br />
+— produce noise to then potentially detect
 </p>
 
-I was walking to school the other day and saw a pile of well placed junk and it made for a somewhat super cool serendipitous sculpture. The bicycle spokes in my mind turned it into some marvellous kinetic sculpture and I imagined the separate parts working together. I think using found objects and giving something unintentional an intention is an appealing process. Somehow I think I can work with these everyday objects and give them a new life.
-
-A friend of mine and I were a collaborative art duo for a while, and worked together on some projects and exhibitions for a couple of months. One theme we were working on was that of <i>cause and effect</i>. We were making a screen-based music tower, based on that of Charles and Ray Eames’ I had seen in an exhibition some time before. Our intent was to eventually make a screen-based Rube Goldberg machine, but alas the duo dissolved - as these things happen - and what I have left, apart from hurt feelings (just joking) is a zine of sketches I drew of explorations in non-functional chain reactions. 
-
-I’d like to make a physical version of these sketches of mine and automate them somehow in a machine that’s ultimate use is user engagement. I think it’s kind of humorous and interesting to create an imbalance between process and outcome, wherein the process becomes lengthly and arduous, the outcome simple and underwhelming.
-In the words of Sol Lewitt which I’ve probably quotes more this past week than in my entire life: “The process is mechanical and should not be tampered with. It should run its course.”
-
-Right now the plan is to think about all of the paraphernalia needed for my machine!… I’m going to start collecting objects I see around me, and map out some blueprints of individual operations. As the technical aspect of it needs to work, I want to separate the whole machine into many different sections. If there’s a problem somewhere along the line I will be able to identify and fix it a lot sooner. I also need to think about potential outcomes of the machine, I think I will brainstorm as many as possible and narrow it down from there.
+I don't necessarily want the machine to be afinalistic, but if we were to consider the machine as a whole as <span class="feed">the cause</span>, then I want <span class="feed">the effect</span> to be simple - maybe make a chime or produce some text. I think incorporating sound could be interesting as it would add another dimension. Every time a user interacts with the machine it could output a different sound, perhaps depending on its mood. And if this machine were to have a mood, it could also be interesting to have this mood driven by some sort of data. For example I could use a twitter API to detect a certain trend or a global mood and call it something like "machines have feelings too" or "touch me to make me feel something" or "maybe if you touch me I'll finally feel something" (not at all autobiographical...). 
 
 Catch me outside how bout dat:<br />
 <span class="feed">001</span> — [my GitHub repo][miles-gh]<br />
