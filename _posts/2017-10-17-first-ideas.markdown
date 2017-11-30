@@ -70,12 +70,3 @@ Right now the plan is to think about all of the paraphernalia needed for my mach
     <img src="{{ site.baseurl }}/assets/img/5.png" alt="" />
 <figcaption class="feed" style="margin-left: 50%;">Fig. b: slide from presentation</figcaption>
 </figure>
-
-Catch me outside how bout dat:<br />
-<span class="feed">001</span> — [my GitHub repo][miles-gh]<br />
-<span class="feed">002</span> — [my Twitter][miles-twitter]
-<span class="feed">003</span> — [my website][miles-website]
-
-[miles-gh]:   https://github.com/piccolazucca
-[miles-twitter]: https://twitter.com/studionugae
-[miles-twitter]: http://apageofobjects.me

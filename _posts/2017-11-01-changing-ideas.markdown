@@ -19,12 +19,3 @@ I’ve had an idea I’ve wanted to work on for some time now, which in my spare
 I realised this idea/direction it just something I’m generally enthusiastic about, and something that you would work on in your free time is probably something worth doing in your work time as well, given the opportunity. 
 
 Potentially I want to develop it into a Chrome extension that you can download from the chrome extension downloader, otherwise I’m also interested in making it into an installation. This would perhaps entail a plinth with a keyboard, where the viewer/user types a url, hits enter, and the output is projected onto a screen in front of the plinth. I could also place a printer next to the plinth and allow the viewer to print out the result, which is actually something I already did in a previous exhibition and think turned out quite well as it enhances the user engagement aspect of things. 
-
-Catch me outside how bout dat:<br />
-<span class="feed">001</span> — [my GitHub repo][miles-gh]<br />
-<span class="feed">002</span> — [my Twitter][miles-twitter]<br />
-<span class="feed">003</span> — [my website][miles-website]
-
-[miles-gh]:   https://github.com/piccolazucca
-[miles-twitter]: https://twitter.com/studionugae
-[miles-website]: http://apageofobjects.me

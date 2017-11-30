@@ -33,7 +33,3 @@ In a-frame I've started working on a prototype that takes each part of text from
     <img src="{{ site.baseurl }}/assets/img/prototype3.png"  align="left" alt="" /><br/>
 <figcaption class="feed">Fig. a: first working prototype</figcaption>
 </figure>
-
-[miles-gh]:   https://github.com/piccolazucca
-[miles-twitter]: https://twitter.com/studionugae
-[miles-website]: http://apageofobjects.me

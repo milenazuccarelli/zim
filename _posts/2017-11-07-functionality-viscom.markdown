@@ -46,12 +46,3 @@ I was using these experiments to replace my portfolio website with something les
 </figure>
 
 Concrete poems and <span class="show__image"><span class="blog__image"><img src="{{ site.baseurl }}/assets/img/ilpleut.jpg" alt="Apolinaire il pleut" /></span><span>calligrammes</span></span> have a distinct meaning or object they're referencing which determines the shape of the poem. As the poems that are being generated are serendipitous and arbitrary I think it would be funny and also make a lot of sense to put them into abstract forms, which still have a visual shape but not a defined concept. 
-
-Catch me outside how bout dat:<br />
-<span class="feed">001</span> — [my GitHub repo][miles-gh]<br />
-<span class="feed">002</span> — [my Twitter][miles-twitter]<br />
-<span class="feed">003</span> — [my website][miles-website]
-
-[miles-gh]:   https://github.com/piccolazucca
-[miles-twitter]: https://twitter.com/studionugae
-[miles-website]: http://apageofobjects.me
