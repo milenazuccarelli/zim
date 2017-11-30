@@ -3,7 +3,7 @@ layout: post
 title:  "Navigating Space"
 date:   2017-11-07 16:43:23 +0200
 categories: ideas
-thumbnail: "/zim/assets/img/prototype4.png"
+thumbnail: "/zim/assets/img/img1.png"
 circle: a
 ---
 
