@@ -33,3 +33,11 @@ In a-frame I've started working on a prototype that takes each part of text from
     <img src="{{ site.baseurl }}/assets/img/prototype3.png"  align="left" alt="" /><br/>
 <figcaption class="feed">Fig. a: first working prototype</figcaption>
 </figure>
+
+My current tasks:
+<p class="indent">
+— correct spacing/dispertion with negative array <br />
+— add image capability <br />
+— fix CORS issues <br />
+— add link capability <br />
+— add soft animations to give greater sense of movement
