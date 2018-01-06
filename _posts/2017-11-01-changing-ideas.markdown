@@ -3,7 +3,7 @@ layout: post
 title:  "Changing Idea"
 date:   2017-11-01 16:43:23 +0200
 categories: ideas
-thumbnail: "/zim/assets/img/thumb2.png"
+thumbnail: "/zim/assets/img/2017-11-01/thumb2.png"
 circle: b
 ---
 
@@ -12,7 +12,7 @@ circle: b
 I’ve had an idea I’ve wanted to work on for some time now, which in my spare time these past I’ve finally come around to doing. For now I’ve written an Ajax script which allows you to enter a URL, which it then scrapes and extracts a few words from. These words are then scattered onto a page to create <span class="feed">serendipitous concrete web poetry</span>. 
 
 <figure style="margin-left: 10em">
-    <img src="{{ site.baseurl }}/assets/img/3-01.png" alt="" />
+    <img src="{{ site.baseurl }}/assets/img/2017-11-01/3-01.png" alt="" />
 <figcaption class="feed">Fig. a: Output from the script. URL is Wikipedia's cookie policy.</figcaption>
 </figure>
 

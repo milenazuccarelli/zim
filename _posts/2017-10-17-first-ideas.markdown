@@ -3,7 +3,7 @@ layout: post
 title:  "Research and initial ideas"
 date:   2017-10-17 16:43:23 +0200
 categories: ideas
-thumbnail: "/zim/assets/img/thumb.jpg"
+thumbnail: "/zim/assets/img/2017-10-17/thumb.jpg"
 circle: b
 ---
 
@@ -12,10 +12,10 @@ circle: b
 I’ve been looking at and reading a lot of performance art recently. It seems to be more dynamic and in a lot of cases directly involves the audience. I’m interested more in the interaction between the audience/participant/viewer than the work itself. 
 
 <figure style="margin-left: 10em">
-    <img src="{{ site.baseurl }}/assets/img/1.png" width="49%" align="left" alt="" />
-    <img src="{{ site.baseurl }}/assets/img/2.png" width="49%" align="left" alt="" />
-    <img src="{{ site.baseurl }}/assets/img/3.png" width="49%" align="left" alt="" />
-    <img src="{{ site.baseurl }}/assets/img/4.png" width="49%" align="left" alt="" />
+    <img src="{{ site.baseurl }}/assets/img/2017-10-17/1.png" width="49%" align="left" alt="" />
+    <img src="{{ site.baseurl }}/assets/img/2017-10-17/2.png" width="49%" align="left" alt="" />
+    <img src="{{ site.baseurl }}/assets/img/2017-10-17/3.png" width="49%" align="left" alt="" />
+    <img src="{{ site.baseurl }}/assets/img/2017-10-17/4.png" width="49%" align="left" alt="" />
 <figcaption class="feed">Fig. a: Sanna Helena Berger</figcaption>
 </figure>
 
@@ -27,31 +27,31 @@ Samuel told me that to have ideas you need to have an ID. I was thinking about w
 — playful art
 </p>
 
-Two artists i really love are <span class="show__image"><span class="blog__image"><img src="{{ site.baseurl }}/assets/img/11.png" alt="" /></span><span>Adrian Horni and Linus Bill,</span></span> their work is super playful and colourful and simple. An exploration in form and colour.
+Two artists i really love are <span class="show__image"><span class="blog__image"><img src="{{ site.baseurl }}/assets/img/2017-10-17/11.png" alt="" /></span><span>Adrian Horni and Linus Bill,</span></span> their work is super playful and colourful and simple. An exploration in form and colour.
 As I want to move away from screen-based work to experiment more during this term and make the most of it, moving from two dimensions to three dimensions I started thinking about playful sculpture (hover for image):
 <p class="indent">
 
 <div class="show__image">
-<section class="blog__image"><img src="{{ site.baseurl }}/assets/img/6.png" alt="" /></section>
+<section class="blog__image"><img src="{{ site.baseurl }}/assets/img/2017-10-17/6.png" alt="" /></section>
 <span class="indent">— Suzy Lelièvre’s Nonsensical Objects</span>
 </div>
 <div class="show__image">
-<section class="blog__image"><img src="{{ site.baseurl }}/assets/img/7.png" alt="" /></section>
+<section class="blog__image"><img src="{{ site.baseurl }}/assets/img/2017-10-17/7.png" alt="" /></section>
 <span class="indent">— Bruno Munari’s Useless Machines</span>
 </div>
 
 <div class="show__image">
-<section class="blog__image"><img src="{{ site.baseurl }}/assets/img/8.png" alt="" /></section>
+<section class="blog__image"><img src="{{ site.baseurl }}/assets/img/2017-10-17/8.png" alt="" /></section>
 <span class="indent">— Philippe Starck’s Juicy Salif</span>
 </div>
 
 <div class="show__image">
-<section class="blog__image"><img src="{{ site.baseurl }}/assets/img/9.png" alt="" /></section>
+<section class="blog__image"><img src="{{ site.baseurl }}/assets/img/2017-10-17/9.png" alt="" /></section>
 <span class="indent">— Aurélien Arbet &amp; Jérémie Egry’s sculptures make from combinations and sections of everyday objects</span>
 </div>
 
 <div class="show__image">
-<section class="blog__image"><img src="{{ site.baseurl }}/assets/img/10.png" alt="" /></section>
+<section class="blog__image"><img src="{{ site.baseurl }}/assets/img/2017-10-17/10.png" alt="" /></section>
 <span class="indent">— Clemens Kois’ stacks</span>
 </div>
 
@@ -67,6 +67,6 @@ In the words of Sol Lewitt which I’ve probably quoted more this past week than
 Right now the plan is to think about all of the paraphernalia needed for my machine!… I’m going to start collecting objects I see around me, and map out some blueprints of individual operations. As the technical aspect of it needs to work, I want to separate the whole machine into many different sections. If there’s a problem somewhere along the line I will be able to identify and fix it a lot sooner. I also need to think about potential outcomes of the machine, I think I will brainstorm as many as possible and narrow it down from there.
 
 <figure>
-    <img src="{{ site.baseurl }}/assets/img/5.png" alt="" />
+    <img src="{{ site.baseurl }}/assets/img/2017-10-17/5.png" alt="" />
 <figcaption class="feed" style="margin-left: 50%;">Fig. b: slide from presentation</figcaption>
 </figure>

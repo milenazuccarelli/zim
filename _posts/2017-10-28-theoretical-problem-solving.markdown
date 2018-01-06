@@ -3,7 +3,7 @@ layout: post
 title:  "Theoretical Problem Solving"
 date:   2017-10-28 15:51:23 +0200
 categories: ideas
-thumbnail: "/zim/assets/img/thumb3.png"
+thumbnail: "/zim/assets/img/2017-10-28/thumb3.png"
 circle: a
 ---
 
